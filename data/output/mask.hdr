@@ -1,0 +1,8 @@
+# Dimensions
+12 18 15 1 1 1024 1 1 1 1 1 1 1 1 1 1 
+# Command
+pattern /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/ksp_12x18x15 /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/mask 
+# Files
+ >/mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/mask </mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/ksp_12x18x15
+# Creator
+BART v0.8.00-587-gd114168
