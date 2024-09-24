@@ -4,7 +4,7 @@ defaultfolder=cd;
 %%
 % mainfolder = matlab.desktop.editor.getActiveFilename;
 % mainfolder = mainfolder(1:size(mainfolder,2)-40);%If the name of the script changes this line has to be modified(-21)
-mainfolder = 'E:\mfiles_kmin\MRM_dSPICE\R1\simulation\figure2\';
+mainfolder = 'E:\mfiles_kmin\MRM_dSPICE\demo\thirdparty\';
 addpath(strcat(mainfolder,'\OXSA-master\main'));
 
 %%
