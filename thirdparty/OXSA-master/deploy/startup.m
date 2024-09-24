@@ -1,1 +1,0 @@
-disp('This startup.m is intentionally empty for Matlab compiler.')
