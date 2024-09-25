@@ -1,0 +1,8 @@
+# Dimensions
+12 18 15 1 1 1 5 1 1 1 1 1 1 1 1 1 
+# Command
+pics -e -d5 -S -i30 -R T:7:0:1.000000e-03 -p /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise/LRSM/mask//vd_poisson_mask_3x5x3_R1.00 -B /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/basis//basis_3x5x3_L5_nslvl3_nsitr1 /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise//ksp_chans_nslvl3_nsitr1 /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/input//sens /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise/LRSM//cfimg_tv_i30_l0.001_3x5x3_L5_nslvl3_nsitr1_R1.0 
+# Files
+ >/mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise/LRSM//cfimg_tv_i30_l0.001_3x5x3_L5_nslvl3_nsitr1_R1.0 </mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/input//sens </mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise//ksp_chans_nslvl3_nsitr1 </mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/basis//basis_3x5x3_L5_nslvl3_nsitr1 </mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise/LRSM/mask//vd_poisson_mask_3x5x3_R1.00
+# Creator
+BART v0.8.00-587-gd114168

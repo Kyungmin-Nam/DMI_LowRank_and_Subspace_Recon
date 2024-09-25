@@ -1,0 +1,1606 @@
+Basis: [ 12  18  15   4   1 1024   5   1   1   1   1   1   1   1   1   1 ]
+Max:   [ 12  18  15   4   1   1   5   1   1   1   1   1   1   1   1   1 ]
+Size: 3317760 Samples: 3317759 Acc: 1.00
+md_mul optimized by blas_mul_sscal: 
+ Old dims/strides:
+[  2  12  18  15   4 ]
+[  4   8  96 1728 25920 ]
+[  4   8  96 1728 25920 ]
+[  0   0   0   0   0 ]
+optimized dims/strides (N=1 by strided kernel):
+[25920 ]
+[  4 ]
+[  4 ]
+[  0 ]
+Calibration region...  (size: 12x18x15, pos: 0x0x0)
+md_mul optimized by blas_mul_sscal: 
+ Old dims/strides:
+[  2  12  18  15   4 ]
+[  4   8  96 1728 25920 ]
+[  4   8  96 1728 25920 ]
+[  0   0   0   0   0 ]
+optimized dims/strides (N=1 by strided kernel):
+[25920 ]
+[  4 ]
+[  4 ]
+[  0 ]
+Scaling: 29.111473  (max = 37.626339/p90 = 29.111473/median = 7.194408)
+Inverse scaling of the data: 29.111473
+md_mul optimized by blas_mul_sscal: 
+ Old dims/strides:
+[  2  12  18  15   4   1 1024 ]
+[  4   8  96 1728 25920   0 103680 ]
+[  4   8  96 1728 25920   0 103680 ]
+[  0   0   0   0   0   0   0 ]
+optimized dims/strides (N=1 by strided kernel):
+[26542080 ]
+[  4 ]
+[  4 ]
+[  0 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+Maximum eigenvalue: 1.00e+00
+TV regularization: 0.001000
+Regularization terms: 1, Supporting variables: 0
+ADMM
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#0: 133.822220
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#1: 70.601303
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#2: 27.034658
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#3: 11.612365
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#4: 5.534302
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#5: 2.621868
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#6: 1.178498
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#7: 0.547898
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#8: 0.254152
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+	 cg:   8
+iter	cgiter	       rho	       tau	    r norm	   eps pri	    s norm	  eps dual	       obj	    relMSE
+  0	  9	    0.5000	    2.0000	   33.0417	    0.0000	   52.9838	    0.0000	   -1.0000	   -1.0000
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#0: 52.874359
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#1: 23.264063
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#2: 11.262962
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#3: 5.210904
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#4: 2.171365
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#5: 0.994812
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#6: 0.441816
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#7: 0.185045
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+	 cg:   7
+  1	 17	    0.5000	    2.0000	   12.1525	    0.0000	   23.6446	    0.0000	   -1.0000	   -1.0000
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#0: 23.600445
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#1: 8.089015
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#2: 4.235373
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#3: 2.359141
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#4: 0.925440
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#5: 0.323449
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+	 cg:   5
+  2	 23	    0.5000	    2.0000	    5.6149	    0.0000	   13.2434	    0.0000	   -1.0000	   -1.0000
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#0: 13.231950
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#1: 3.716209
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#2: 1.805690
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#3: 1.081368
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#4: 0.450938
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+	 cg:   4
+  3	 28	    0.5000	    2.0000	    2.8900	    0.0000	    8.0670	    0.0000	   -1.0000	   -1.0000
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#0: 8.055321
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#1: 1.896778
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#2: 0.800133
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#3: 0.497906
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+#4: 0.230697
+md_zfmac optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960   5 1024 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0 8192   8 ]
+md_zfmacc optimized by blas_zfmac_cgemm: 
+ Old dims/strides:
+[ 12  18  15   4   1 1024   5 ]
+[  8  96 1728 25920   0   0 103680 ]
+[  8  96 1728 25920   0 103680   0 ]
+[  0   0   0   0   0   8 8192 ]
+optimized dims/strides (N=3 by strided kernel):
+[12960 1024   5 ]
+[  8   0 103680 ]
+[  8 103680   0 ]
+[  0   8 8192 ]
+	 cg:   4
+  4	 33	    0.5000	    2.0000	    1.6331	    0.0000	    5.1605	    0.0000	   -1.0000	   -1.0000
+md_mul optimized by blas_mul_sscal: 
+ Old dims/strides:
+[  2  12  18  15   1   1   1   5 ]
+[  4   8  96 1728   0   0   0 25920 ]
+[  4   8  96 1728   0   0   0 25920 ]
+[  0   0   0   0   0   0   0   0 ]
+optimized dims/strides (N=1 by strided kernel):
+[32400 ]
+[  4 ]
+[  4 ]
+[  0 ]
+Total Time: 14.785508

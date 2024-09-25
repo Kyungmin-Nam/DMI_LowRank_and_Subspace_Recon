@@ -1,0 +1,8 @@
+# Dimensions
+12 18 15 1 1 1024 1 1 1 1 1 1 1 1 1 1 
+# Command
+fmac -s 64 /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/basis//basis_3x5x3_L5_nslvl3_nsitr1 /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise/LRSM//cfimg_tv_i30_l0.001_3x5x3_L5_nslvl3_nsitr1_R1.0 /mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise/LRSM//img_tv_i30_l0.001_3x5x3_L5_nslvl3_nsitr1_R1.0 
+# Files
+ >/mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise/LRSM//img_tv_i30_l0.001_3x5x3_L5_nslvl3_nsitr1_R1.0 </mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/noise/LRSM//cfimg_tv_i30_l0.001_3x5x3_L5_nslvl3_nsitr1_R1.0 </mnt/e/mfiles_kmin/MRM_dSPICE/demo/data/output/basis//basis_3x5x3_L5_nslvl3_nsitr1
+# Creator
+BART v0.8.00-587-gd114168
